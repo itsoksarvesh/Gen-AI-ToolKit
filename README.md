@@ -8,14 +8,16 @@ To run this script, you need to have Python installed on your system. You can do
 
    ```bash
    git clone https://github.com/puja-chaudhury/AI-LangChain-Kit.git
-   cd text_translation_tool
+   cd AI-LangChain-Kit
    
 2. Install the required dependencies:
 
    ```
    pip install -r requirements.txt
+   
+3. Create your own TAVILY_API_KEY by visiting : https://app.tavily.com/home and replace it in .env file.
 
-3. Run each AI program:
+4. Run each AI program:
 
    ```
     streamlit run simple_text_generation.py
