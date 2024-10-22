@@ -12,7 +12,8 @@ To run this script, you need to have Python installed on your system. You can do
    
 2. Install the required dependencies:
 
-   ```pip install -r requirements.txt
+   ```
+   pip install -r requirements.txt
 
 3. Run each AI program:
 
