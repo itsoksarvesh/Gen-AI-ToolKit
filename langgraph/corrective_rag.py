@@ -17,7 +17,10 @@ from typing import List
 from typing_extensions import TypedDict
 import os
 
-os.environ["TAVILY_API_KEY"] = "GENERATE_YOUR_API_KEY"
+from dotenv import load_dotenv
+load_dotenv()
+os.environ['LANGCHAIN_API_KEY']=os.getenv('TAVILY_API_KEY')
+
 # Streamlit setup
 st.set_page_config(page_title="Document Retrieval and QA", layout="wide")
 st.title("Document Retrieval and Question Answering")
