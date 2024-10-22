@@ -1,4 +1,4 @@
-# AI-LangChain-Kit
+# Gen-AI-ToolKit
 
 To run this script, you need to have Python installed on your system. You can download Python from [python.org](https://www.python.org/downloads/).
 
@@ -7,8 +7,8 @@ To run this script, you need to have Python installed on your system. You can do
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/puja-chaudhury/AI-LangChain-Kit.git
-   cd AI-LangChain-Kit
+   git clone https://github.com/puja-chaudhury/Gen-AI-ToolKit.git
+   cd Gen-AI-ToolKit
    
 2. Install the required dependencies:
 
