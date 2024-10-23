@@ -18,7 +18,7 @@ To run this script, you need to have Python installed on your system. You can do
 
 3. Create python environment:
    
-   ```
+     ```
    mkvirtualenv env_name
    workon env_name
 

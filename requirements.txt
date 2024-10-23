@@ -17,3 +17,4 @@ pypdf
 langchain_core
 python-dotenv
 streamlit
+rank_bm25
