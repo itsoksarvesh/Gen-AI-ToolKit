@@ -4,7 +4,7 @@ from langchain.chains import LLMChain
 from langchain_community.llms import Ollama
 
 # Initialize the Ollama model
-ollama_llm = Ollama(model="llama3.2:3b")
+ollama_llm = Ollama(model="llama3.2:1b")
 
 # Define a prompt template with dynamic input
 template = "{input_text}"

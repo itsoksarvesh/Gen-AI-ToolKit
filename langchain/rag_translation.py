@@ -16,7 +16,7 @@ st.title("🌍 Full-Content Translation with Hugging Face Embeddings and FAISS")
 
 @st.cache_resource
 def get_ollama_llm():
-    return Ollama(model="llama3.2:3b")
+    return Ollama(model="llama3.2:1b")
 
 ollama_llm = get_ollama_llm()
 

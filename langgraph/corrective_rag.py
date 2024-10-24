@@ -38,7 +38,7 @@ def load_and_split_documents(urls):
     return doc_splits
 
 # LLM setup
-local_llm = "llama3.2:3b"
+local_llm = "llama3.2:1b"
 llm = ChatOllama(model=local_llm, format="json", temperature=0)
 
 # Embedding setup

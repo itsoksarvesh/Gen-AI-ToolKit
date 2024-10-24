@@ -13,7 +13,7 @@ To run this script, you need to have Python installed on your system. You can do
 2.Download Ollama from https://github.com/ollama/ollama?tab=readme-ov-file
 
   ```
-  ollama run llama3.2:3b
+  ollama run llama3.2:1b
 
 
 3. Install the required dependencies:
